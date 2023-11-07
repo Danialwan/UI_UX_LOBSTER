@@ -1,0 +1,46 @@
+nav{
+    background: linear-gradient(90deg, #FF4A2B 37.97%, #FF416C 55.9%);
+    height: 10vh;
+    width: 100%;
+    flex-shrink: 0;
+    position: fixed !important;
+    box-shadow: 0px 8px 20px #888888;
+    z-index: 6;
+    }
+.navbar-lobster{
+    padding:10rem ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+    li a{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .profile{
+
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    }
+
+    .nav-link{
+    
+    font-weight: normal;
+     }
+
+    .nav-link:hover{
+    color: white !important;
+    font-weight: bold;
+     }
+
+     .nav-link.active {
+    color: white;
+     }
