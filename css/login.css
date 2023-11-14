@@ -1,0 +1,666 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 153.5rem;
+}.login-dwf {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.login-dwf .nav-nZf {
+  margin-bottom: 15.2rem;
+  box-sizing: border-box;
+  padding: 1.7rem 10.75rem 1.8rem 20.914rem;
+  width: 153.6001rem;
+  height: 9.1rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #ff4a2b 37.97%, #ff416c 55.9%);
+  flex-shrink: 0;
+}
+.login-dwf .nav-nZf .lobsterindo-VU5 {
+  margin-right: 9.2168rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-dwf .nav-nZf .beranda-d4V {
+  margin-right: 7.3093rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-dwf .nav-nZf .partnership-9oX {
+  margin-right: 6.8105rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-dwf .nav-nZf .budidaya-Uau {
+  margin-right: 7.1097rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-dwf .nav-nZf .belanja-DHb {
+  margin-right: 7.1086rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-dwf .nav-nZf .riwayat-belanja-k2d {
+  margin-right: 10.7815rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-dwf .nav-nZf .auto-group-b7qj-s7F {
+  width: 13.8rem;
+  height: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.login-dwf .auto-group-wmdt-9Kf {
+  margin: 0rem 34.4rem 16.3rem 37.7rem;
+  width: calc(100% - 72.1rem);
+  height: 48.7rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.login-dwf .auto-group-wmdt-9Kf .shadow-enD {
+  width: 80.9rem;
+  height: 48.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.login-dwf .auto-group-wmdt-9Kf .forgot-your-password-ZeH {
+  width: 12.9rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 13.5rem;
+  top: 28.6rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #2199d6;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .auto-group-wmdt-9Kf .rectangle-149-4L9 {
+  width: 5.8rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 16.6rem;
+  top: 31.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.7rem;
+}
+.login-dwf .auto-group-wmdt-9Kf .login-Aty {
+  width: 3rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 18rem;
+  top: 32.2rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .auto-group-wmdt-9Kf .rectangle-146-5m3 {
+  width: 40.5rem;
+  height: 48.7rem;
+  position: absolute;
+  left: 40.9rem;
+  top: 0;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+  background-color: #ff4a2b;
+}
+.login-dwf .auto-group-wmdt-9Kf .sign-in-R4D {
+  width: 10.4rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 14.2rem;
+  top: 12.7rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1b1b1b;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .auto-group-wmdt-9Kf .hello-friend-8zD {
+  width: 20.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 51.3rem;
+  top: 16.6rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .auto-group-wmdt-9Kf .enter-you-personal-details-and-start-journey-with-us-rfK {
+  width: 24.6rem;
+  height: 4.2rem;
+  position: absolute;
+  left: 48.35rem;
+  top: 22.4rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.login-dwf .auto-group-wmdt-9Kf .group-43-m1b {
+  width: 10rem;
+  height: 3.2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 56.2rem;
+  top: 28.4rem;
+  border-radius: 2.2rem;
+}
+.login-dwf .auto-group-wmdt-9Kf .group-43-m1b .rectangle-135-JGR {
+  width: 10rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 2.2rem;
+}
+.login-dwf .auto-group-wmdt-9Kf .group-43-m1b .sign-up-Efs {
+  width: 4rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 2.95rem;
+  top: 0.8rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .auto-group-wmdt-9Kf .rectangle-150-Lyo {
+  width: 25.5rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 18.7rem;
+  border: solid 0.1rem #606060;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.login-dwf .auto-group-wmdt-9Kf .rectangle-151-497 {
+  width: 25.5rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 23.5rem;
+  border: solid 0.1rem #606060;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.login-dwf .auto-group-wmdt-9Kf .email-NvV {
+  width: 3.8rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 8.5rem;
+  top: 19.7rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #606060;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .auto-group-wmdt-9Kf .password-ttq {
+  width: 6.7rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 8.5rem;
+  top: 24.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #606060;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .auto-group-wmdt-9Kf .icon-eye-password-show-icon-QsB {
+  width: 1.9rem;
+  height: 1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 29.5rem;
+  top: 25.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.login-dwf .footer-WQR {
+  width: 153.801rem;
+  height: 41rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.login-dwf .footer-WQR .rectangle-14-RGV {
+  width: 153.8rem;
+  height: 41rem;
+  position: absolute;
+  left: 0.001rem;
+  top: 0;
+  background: linear-gradient(90deg, #ff4a2b 41.37%, #ff416c 58.91%);
+}
+.login-dwf .footer-WQR .rectangle-133-vyw {
+  width: 153.8rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 0;
+  top: 35.8rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.login-dwf .footer-WQR .lobsterindo-lobsterindo-adala-perusahaan-yang-berjalan-pada-bidang-agrikultural-untuk-mensejahterakan-peternak-lobster-airtawar-fwX {
+  width: 98.3rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 27.1rem;
+  top: 37.4rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #1b1b1b;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .lobsterindo-KmB {
+  width: 16.6rem;
+  height: 3.6rem;
+  position: absolute;
+  left: 18.8rem;
+  top: 7.6rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .ikuti-kami-S57 {
+  width: 8rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 57.3rem;
+  top: 22.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .layanan-kami-Ytq {
+  width: 11.6rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 57.3rem;
+  top: 7.7rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .penangkaran--U1o {
+  width: 10rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 18.8rem;
+  top: 11.2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .pembelian-lobster-air-tawar-aqX {
+  width: 19.4rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 57.3rem;
+  top: 10.7rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .tatacara-budidaya-Vhb {
+  width: 13.4rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 57.3rem;
+  top: 12.8rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .join-partnership-1fw {
+  width: 11.1rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 57.3rem;
+  top: 14.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .join-our-member-8Em {
+  width: 11.7rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 57.3rem;
+  top: 16.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .tentang-kami-3Mj {
+  width: 9.6rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 57.3rem;
+  top: 19.1rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .jl-tambak-medokan-ayu-vic-68-surabaya-mHj {
+  width: 30.5rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 18.8rem;
+  top: 13.3rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .menur-2-2c-surabaya-GkH {
+  width: 16.4rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 18.8rem;
+  top: 15.4rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .lamongan-lamongan-nid {
+  width: 16.7rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 18.8rem;
+  top: 17.5rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .sragen-sragen-hqb {
+  width: 11.5rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 18.8rem;
+  top: 19.5rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .bandung-bandung-Rmb {
+  width: 14.3rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 18.8rem;
+  top: 21.7rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .padang-padang-YrD {
+  width: 12.5rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 18.8rem;
+  top: 23.8rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .samarinda-samarinda-ffw {
+  width: 17.1rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 18.8rem;
+  top: 25.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .logotrans-1-bJh {
+  width: 40.4rem;
+  height: 15rem;
+  position: absolute;
+  left: 100.9rem;
+  top: 7.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.login-dwf .footer-WQR .rectangle-138-LXB {
+  width: 25.3rem;
+  height: 3rem;
+  position: absolute;
+  left: 108.6rem;
+  top: 26.9rem;
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+}
+.login-dwf .footer-WQR .rectangle-139-HBX {
+  width: 9.4rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 108.8rem;
+  top: 27.1rem;
+  background-color: #ff4a2b;
+  border-radius: 1rem;
+}
+.login-dwf .footer-WQR .english-Dqs {
+  width: 5rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 119.1rem;
+  top: 27.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1b1b1b;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .mandarin-wG5 {
+  width: 6.9rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 125.5rem;
+  top: 27.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1b1b1b;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .indonesia-U17 {
+  width: 7rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 110.3rem;
+  top: 27.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login-dwf .footer-WQR .icon-instagram-aK3 {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 57.3rem;
+  top: 25.7rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.login-dwf .footer-WQR .icon-facebook-fill-tqX {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 62.3rem;
+  top: 25.7rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.login-dwf .footer-WQR .icon-twitter-circle-pjB {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 67.3rem;
+  top: 25.7rem;
+  object-fit: contain;
+  vertical-align: top;
+}
