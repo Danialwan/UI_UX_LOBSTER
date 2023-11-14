@@ -1,0 +1,78 @@
+.partnership {
+  position: relative;
+  width: 1535px;
+  height: 1461px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.partnership .ellipse {
+  position: absolute;
+  width: 684px;
+  height: 684px;
+  top: 928px;
+  left: 746px;
+  border-radius: 342px;
+  background: linear-gradient(180deg, rgb(255, 74, 43) 0%, rgb(255, 74, 43) 27%, rgb(255, 255, 255) 100%);
+}
+
+.partnership .img {
+  position: absolute;
+  width: 186px;
+  height: 692px;
+  top: 191px;
+  left: 1349px;
+}
+
+.partnership .div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 757px;
+  left: 1088px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgb(255, 74, 43) 0%, rgb(255, 74, 43) 27%, rgb(255, 255, 255) 100%);
+}
+
+.partnership .ellipse-2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 161px;
+  left: 1265px;
+  border-radius: 30px;
+  transform: rotate(-90deg);
+  background: linear-gradient(180deg, rgb(255, 74, 43) 0%, rgb(255, 74, 43) 27%, rgb(255, 255, 255) 100%);
+}
+
+.partnership .ellipse-3 {
+  position: absolute;
+  width: 116px;
+  height: 116px;
+  top: 45px;
+  left: -32px;
+  border-radius: 58px;
+  background: linear-gradient(180deg, rgb(255, 65, 108) 0%, rgb(255, 65, 108) 27%, rgb(255, 255, 255) 100%);
+}
+
+.partnership .ellipse-4 {
+  position: absolute;
+  width: 216px;
+  height: 216px;
+  top: 952px;
+  left: 40px;
+  border-radius: 108.1px;
+  transform: rotate(-105deg);
+  background: linear-gradient(180deg, rgb(255, 65, 108) 0%, rgb(255, 65, 108) 27%, rgb(255, 255, 255) 100%);
+}
+
+.partnership .ellipse-5 {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 893px;
+  left: 88px;
+  border-radius: 20.49px;
+  transform: rotate(-105deg);
+  background: linear-gradient(180deg, rgb(255, 65, 108) 0%, rgb(255, 65, 108) 27%, rgb(255, 255, 255) 100%);
+}
