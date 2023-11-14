@@ -1,86 +1,92 @@
 .footer {
-    background: linear-gradient(to right, #FF4B2B, #FF416C);
-    padding: 20px 0;
-    color: #ffffff;
-    font-family: 'Poppins';
-    font-size: 14px;
-    /* text-align: center; */
-    border-top: 1px solid black;
-    margin-top: 5vh; /* Menggunakan unit viewport height untuk margin-top */
-    padding: 10vh;
-    padding-left: 20vh;
-    bottom: 0 !important;
-  }
-  .logo {
-    width: 282px;
-  }
+  background: linear-gradient(to right, #FF4B2B, #FF416C);
+  padding: 20px 0;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 14px;
+  /* text-align: center; */
+  margin-top: 5vh;
+  /* Menggunakan unit viewport height untuk margin-top */
+  padding: 10vh;
+  padding-left: 20vh;
+  bottom: 0 !important;
+}
 
-  .logo_bahasa{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 0;
-  }
-  .footer-content {
-    display: flex;
-    justify-content: left;
-  }
+.logo {
+  width: 282px;
+}
 
-  .sosmed a .img{
-    width: 35px;
-    height: 35px;
-    margin: 5px;
-    /* display: inline; */
-    background-color: red;
-    -webkit-mask: src="images/instagram.png" ;
-  }
+.logo_bahasa {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+}
 
-  .sosmed a img{
-    margin: 5px;
-  }
+.footer-content {
+  display: flex;
+  justify-content: left;
+}
 
-  .footer p {
-    margin: 0;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: left;
-    font-size: 24px;
-    font-weight: bold;
-  }
+.sosmed a .img {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  /* display: inline; */
+  background-color: red;
+  -webkit-mask: src="images/instagram.png";
+}
 
-  .footer-links {
+.sosmed a img {
+  margin: 5px;
+}
 
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
+.footer p {
+  margin: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: left;
+  font-size: 24px;
+  font-weight: bold;
+}
 
-  }
+.footer-links {
 
-  .footer-links li {
-    display: flex;
-    justify-content: left;
-
-  }
-
-  .footer-links li a {
-
-    font-weight: 250;
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
 
 }
 
-  .footer-links li a:hover {
-    color: #1b1b1b;
-    font-weight: 300;
-  }
+.footer-links li {
+  display: flex;
+  justify-content: left;
 
-  .display{
-    text-align: center;
-  
-    }
+}
 
-    .bahasa{
-        
-    }
+.footer-links li a {
+
+  font-weight: 250;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+
+}
+
+.footer-links li a:hover {
+  color: #1b1b1b;
+  font-weight: 300;
+}
+
+.display {
+  text-align: center;
+
+}
+
+/* .div-wrapper {
+  width: 1538px;
+  height: 52px;
+  top: 358px;
+  left: 0;
+  background-color: #ffffff80;
+} */
