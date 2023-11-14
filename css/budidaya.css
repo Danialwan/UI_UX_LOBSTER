@@ -57,7 +57,7 @@ html {
   left: 0;
   z-index: -1;
   background-color: #efefef;
-  background-size: 100% 100vh;
+  background-size: 100%;
   background-position: center;
 }
 
@@ -79,10 +79,11 @@ html {
   background-color: #1b1b1b;
   background-size: 100%;
 }
-.border-danger {
-  color: #dc3545;
-}
-.border-danger:hover {
-  background-color: red !important;
-  color: white !important;
+
+.background{
+  height: 100%;
+  width: 100%;
+  background-color: #efefef;
+  background-size: 100%;
+  background-position: center;
 }

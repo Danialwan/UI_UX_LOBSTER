@@ -6,7 +6,7 @@ nav{
     position: fixed !important;
     top: 0;
     box-shadow: 0px 8px 20px #888888;
-    z-index: 6;
+    z-index: 20;
 }
 .navbar-lobster{
     padding:10rem ;
@@ -58,3 +58,12 @@ li a{
     background-position: center;
     background-repeat: no-repeat;
 }   
+
+.btn-signin{
+    color: rgb(219, 219, 219);
+    font-size: 16px;
+  }
+
+  .btn-signin:hover{
+    color: white;
+  }

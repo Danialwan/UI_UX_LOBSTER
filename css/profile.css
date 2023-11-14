@@ -1,0 +1,17 @@
+.container-profile{
+    margin-top: 10vh;
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.title-desc{
+    text-align: center;
+    width: 26vw;
+}
