@@ -13,8 +13,7 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/belanja.css">
-
+  <link rel="stylesheet" href="css/riwayat.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -46,7 +45,7 @@
               <a class="nav-link" href="Belanja.html">Belanja</a>
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link" href="RiwayatBelanja.html">Riwayat Belanja</a>
+              <a class="nav-link" href="#">Riwayat Belanja</a>
             </li>
           </ul>
         </div>
@@ -108,14 +107,7 @@
       </div>
     </nav> <!-- End Navbar -->
     <section>
-      <div style="background-image: url('images/belanja.png');"
-        class="img-big d-flex align-items-end justify-content-center">
-        <div class="mb-4">
-          <b>Komoditas Terbaik</b>
-          <p>Kami Selalu Mengutamakan Kualitas dan Keramahan Karyawan Kami</p>
-        </div>
-      </div>
-      <div class="mt-5 mb-5 container">
+      <div class="container-riwayat">
         <div class="row d-flex justify-content-center">
           <div class="col-6">
             <div class="mb-2">
@@ -139,83 +131,169 @@
             </div>
           </div>
         </div>
-        <div class="mt-2 row d-flex justify-content-center g-4">
-          <div class="col-5 d-flex justify-content-center">
-            <a style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
-              <div class="katalog p-4 row d-flex align-items-center">
-                <div
-                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('images/LobsterKonsumsi.png')"
-                  class="image col-4">
+        <div class="mt-2 mb-5 row d-flex justify-content-center g-4">
+
+          <div class="col-9 d-flex justify-content-center">
+            <div style="text-decoration: none; width: 100%;" href=" " class="katalog p-3">
+              <div class="row">
+                <div class="col-2">
+                  <div style="background-image: url('images/LobsterKonsumsi.png') ;" class="img-barang"></div>
                 </div>
-                <div class="col-7 ms-4 flex-column">
-                  <div class="stock">
-                    Stock: 20Kg
+                <div class="col-3 d-flex align-items-center">
+                  <div class="detail-beli">
+                    <b>Lobster Air Tawar Konsumsi</b>
+                    <p style="margin: 0;">Jumlah Pembelian : 5Kg</p>
+                    <b class="harga">Rp.900.000.-</b>
                   </div>
-                  <b>Lobster AirTawar Konsumsi</b>
-                  <b class="harga">Rp.180.000</b>
-                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                </div>
+                <div class="col-5 d-flex align-items-center">
+                  <div class="detail-pengiriman">
+                    <p>Alamat Pengiriman : Jl.Tambak Medokan Ayu IVC/68</p>
+                    <p>Tanggal Pemesanan : 19/02/2022</p>
+                    <p>TanggalPengiriman : 22/02/2022</p>
+                  </div>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                  <div>
+                    <center>
+                      <div class="proses-1 mb-2">Menunggu</div>
+                      <a style="width: 8vw;" href="" class="btn btn-orange">Lihat</a>
+                    </center>
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
-          <div class="col-5 d-flex justify-content-center">
-            <a style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
-              <div class="katalog p-4 row d-flex align-items-center">
-                <div
-                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('images/LobsterKonsumsi.png')"
-                  class="image col-4">
+          <div class="col-9 d-flex justify-content-center">
+            <div style="text-decoration: none; width: 100%;" href=" " class="katalog p-3">
+              <div class="row">
+                <div class="col-2">
+                  <div style="background-image: url('images/LobsterKonsumsi.png') ;" class="img-barang"></div>
                 </div>
-                <div class="col-7 ms-4 flex-column">
-                  <div class="stock">
-                    Stock: 20Kg
+                <div class="col-3 d-flex align-items-center">
+                  <div class="detail-beli">
+                    <b>Lobster Air Tawar Konsumsi</b>
+                    <p style="margin: 0;">Jumlah Pembelian : 5Kg</p>
+                    <b class="harga">Rp.900.000.-</b>
                   </div>
-                  <b>Lobster AirTawar Konsumsi</b>
-                  <b class="harga">Rp.180.000</b>
-                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                </div>
+                <div class="col-5 d-flex align-items-center">
+                  <div class="detail-pengiriman">
+                    <p>Alamat Pengiriman : Jl.Tambak Medokan Ayu IVC/68</p>
+                    <p>Tanggal Pemesanan : 19/02/2022</p>
+                    <p>TanggalPengiriman : 22/02/2022</p>
+                  </div>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                  <div>
+                    <center>
+                      <div class="proses-1 mb-2">Menunggu</div>
+                      <a style="width: 8vw;" href="" class="btn btn-orange">Lihat</a>
+                    </center>
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
-          <div class="col-5 d-flex justify-content-center">
-            <a style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
-              <div class="katalog p-4 row d-flex align-items-center">
-                <div
-                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('images/LobsterKonsumsi.png')"
-                  class="image col-4">
+          <div class="col-9 d-flex justify-content-center">
+            <div style="text-decoration: none; width: 100%;" href=" " class="katalog p-3">
+              <div class="row">
+                <div class="col-2">
+                  <div style="background-image: url('images/LobsterKonsumsi.png') ;" class="img-barang"></div>
                 </div>
-                <div class="col-7 ms-4 flex-column">
-                  <div class="stock">
-                    Stock: 20Kg
+                <div class="col-3 d-flex align-items-center">
+                  <div class="detail-beli">
+                    <b>Lobster Air Tawar Konsumsi</b>
+                    <p style="margin: 0;">Jumlah Pembelian : 5Kg</p>
+                    <b class="harga">Rp.900.000.-</b>
                   </div>
-                  <b>Lobster AirTawar Konsumsi</b>
-                  <b class="harga">Rp.180.000</b>
-                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                </div>
+                <div class="col-5 d-flex align-items-center">
+                  <div class="detail-pengiriman">
+                    <p>Alamat Pengiriman : Jl.Tambak Medokan Ayu IVC/68</p>
+                    <p>Tanggal Pemesanan : 19/02/2022</p>
+                    <p>TanggalPengiriman : 22/02/2022</p>
+                  </div>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                  <div>
+                    <center>
+                      <div class="proses-2 mb-2">Proses Kirim</div>
+                      <a style="width: 8vw;" href="" class="btn btn-orange">Lihat</a>
+                    </center>
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
-          <div class="col-5 d-flex justify-content-center">
-            <a style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
-              <div class="katalog p-4 row d-flex align-items-center">
-                <div
-                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('images/LobsterKonsumsi.png')"
-                  class="image col-4">
+          <div class="col-9 d-flex justify-content-center">
+            <div style="text-decoration: none; width: 100%;" href=" " class="katalog p-3">
+              <div class="row">
+                <div class="col-2">
+                  <div style="background-image: url('images/LobsterKonsumsi.png') ;" class="img-barang"></div>
                 </div>
-                <div class="col-7 ms-4 flex-column">
-                  <div class="stock">
-                    Stock: 20Kg
+                <div class="col-3 d-flex align-items-center">
+                  <div class="detail-beli">
+                    <b>Lobster Air Tawar Konsumsi</b>
+                    <p style="margin: 0;">Jumlah Pembelian : 5Kg</p>
+                    <b class="harga">Rp.900.000.-</b>
                   </div>
-                  <b>Lobster AirTawar Konsumsi</b>
-                  <b class="harga">Rp.180.000</b>
-                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                </div>
+                <div class="col-5 d-flex align-items-center">
+                  <div class="detail-pengiriman">
+                    <p>Alamat Pengiriman : Jl.Tambak Medokan Ayu IVC/68</p>
+                    <p>Tanggal Pemesanan : 19/02/2022</p>
+                    <p>TanggalPengiriman : 22/02/2022</p>
+                  </div>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                  <div>
+                    <center>
+                      <div class="proses-3 mb-2">Terkirim</div>
+                      <a style="width: 8vw;" href="" class="btn btn-orange">Lihat</a>
+                    </center>
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
-        </div>
+
+          <div class="col-9 d-flex justify-content-center">
+            <div style="text-decoration: none; width: 100%;" href=" " class="katalog p-3">
+              <div class="row">
+                <div class="col-2">
+                  <div style="background-image: url('images/LobsterKonsumsi.png') ;" class="img-barang"></div>
+                </div>
+                <div class="col-3 d-flex align-items-center">
+                  <div class="detail-beli">
+                    <b>Lobster Air Tawar Konsumsi</b>
+                    <p style="margin: 0;">Jumlah Pembelian : 5Kg</p>
+                    <b class="harga">Rp.900.000.-</b>
+                  </div>
+                </div>
+                <div class="col-5 d-flex align-items-center">
+                  <div class="detail-pengiriman">
+                    <p>Alamat Pengiriman : Jl.Tambak Medokan Ayu IVC/68</p>
+                    <p>Tanggal Pemesanan : 19/02/2022</p>
+                    <p>TanggalPengiriman : 22/02/2022</p>
+                  </div>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                  <div>
+                    <center>
+                      <div class="proses-3 mb-2">Terkirim</div>
+                      <a style="width: 8vw;" href="" class="btn btn-orange">Lihat</a>
+                    </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          v
     </section>
     <!-- Footer -->
     <footer class="footer">
