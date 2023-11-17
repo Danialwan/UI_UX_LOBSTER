@@ -42,6 +42,27 @@
     font-weight: bold;
 }
 
+.container-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    padding: 10vh;
+    /* background-color: #dc3545; */
+}
+
+.admin-title b{
+    color: #1B1B1B;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.admin-desc{
+    width: 40vw;
+    text-align: center;
+}
 /* .btn-gradient {
     color: white;
     width: 20vw;

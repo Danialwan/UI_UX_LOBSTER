@@ -9,7 +9,8 @@ nav{
     z-index: 20;
 }
 .navbar-lobster{
-    padding:10rem ;
+    padding-left:10rem ;
+    padding-right: 10rem;
     width: 100%;
     display: flex;
     justify-content: space-between;

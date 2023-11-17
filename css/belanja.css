@@ -1,9 +1,16 @@
 .katalog {
-    width: 480px;
-    height: 193px;
-    background-color: #d6d6d6;
+    width: 34vw;
+    height: 28vh;
+    background-color: aliceblue;
     border-radius: 30px;
     color: rgb(48, 48, 48);
+}
+
+.katalog:hover {
+    width: 34.5vw;
+    height: 28.5vh;
+    color: rgb(48, 48, 48);
+    background-color: rgb(221, 228, 234);
 }
 
 .image {
