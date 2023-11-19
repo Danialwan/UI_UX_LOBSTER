@@ -10,10 +10,10 @@
 <body>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/belanja.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/proses.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-md navbar-dark bg-white shadow-sm">
               <div class="navbar-lobster">
-                  <a class="navbar-brand" href="Beranda.html">
+                  <a class="navbar-brand" href="../Beranda.html">
                       <b style="font-size: 1.3em">Lobsterindo</b>
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -35,26 +35,26 @@
                   <div class="row align-items-center" id="navbarSupportedContent">
                       <ul class="navbar-nav">
                           <li class="nav-item me-4">
-                              <a class="nav-link" href="Beranda.html">Beranda</a>
+                              <a class="nav-link" href="../Beranda.html">Beranda</a>
                           </li>
                           <li class="nav-item me-4">
-                              <a class="nav-link" href="Partnership.html">Partnership</a>
+                              <a class="nav-link" href="../Partnership.html">Partnership</a>
                           </li>
                           <li class="nav-item me-4">
-                              <a class="nav-link" href="Budidaya.html">Budidaya</a>
+                              <a class="nav-link" href="../Budidaya.html">Budidaya</a>
                           </li>
                           <li class="nav-item me-4">
-                              <a class="nav-link" href="Belanja.html">Belanja</a>
+                              <a class="nav-link" href="../Belanja.html">Belanja</a>
                           </li>
                           <li class="nav-item me-4">
-                              <a class="nav-link" href="RiwayatBelanja.html">Riwayat Belanja</a>
+                              <a class="nav-link" href="../RiwayatBelanja.html">Riwayat Belanja</a>
                           </li>
                       </ul>
                   </div>
                   <div class="nav-item dropdown pe-3">
                       <a style="display: inline-flex;" class="nav-link nav-profile pe-0 d-flex align-items-center"
                           href="#" data-bs-toggle="dropdown">
-                          <div style="background-image: url('images/pp.png');" class="circle"></div>
+                          <div style="background-image: url('../images/pp.png');" class="circle"></div>
                           <span class="d-none d-md-block dropdown-toggle ps-2">Alwan Hakim</span>
                       </a><!-- End Profile Iamge Icon -->
   
@@ -68,7 +68,7 @@
                           </li>
   
                           <li>
-                              <a class="dropdown-item d-flex align-items-center" href="Profile.html">
+                              <a class="dropdown-item d-flex align-items-center" href="../Profile.html">
                                   <i class="bi bi-person"></i>
                                   <span>My Profile</span>
                               </a>
@@ -78,7 +78,7 @@
                           </li>
   
                           <li>
-                              <a class="dropdown-item d-flex align-items-center" href="Boss/Admin.html">
+                              <a class="dropdown-item d-flex align-items-center" href="../Boss/Admin.html">
                                   <i class="bi bi-gear"></i>
                                   <span>Admin Page</span>
                               </a>
@@ -98,7 +98,7 @@
                         </li> -->
   
                           <li>
-                              <a class="dropdown-item d-flex align-items-center" href="login.html">
+                              <a class="dropdown-item d-flex align-items-center" href="../login.html">
                                   <i class="bi bi-box-arrow-right"></i>
                                   <span>Sign Out</span>
                               </a>
@@ -114,113 +114,49 @@
               </div>
           </nav> <!-- End Navbar -->
     <section>
-      <div style="background-image: url('images/belanja.png');"
-        class="img-big d-flex align-items-end justify-content-center">
-        <div class="mb-4">
-          <b>Komoditas Terbaik</b>
-          <p>Kami Selalu Mengutamakan Kualitas dan Keramahan Karyawan Kami</p>
-        </div>
-      </div>
-      <div class="mt-5 mb-5 container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-6">
-            <div class="mb-2">
-              <select class="form-select rounded-3 border" aria-label="Default select example" name="manager_id">
-                <option disabled selected>Pilih Penangkaran</option>
-                <option> Jl.tambak medokan ayu</option>
-              </select>
+        <div style="margin-top: 10vh;" class="container d-flex justify-content-center align-items-center">
+            <div class="box-proses">
+                <div class="status-pemesanan1 d-flex justify-content-center">
+                    STATUS PEMESANAN : MENUNGGU PEMBAYARAN
+                </div>
+                <div class="batas ">
+                    <center>
+                    <p class="medium-text">Selesaikan pembayaran dalam </p>
+                    <b class="waktu">23:20:33</b>
+                    <p class="small-text">Batas akhir pembayaran </p>
+                    <p class="medium-text">Kamis, 5 Oktober 2023 00:41</p>
+                </center>
+                </div>
+                <div class="box-pembayaran">
+                    <div class="d-flex justify-content-between">
+                        <p class="medium-text">Gopay</p>
+                        <img src="../images/Gopay.svg" alt="">
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="medium-text">Code Pembayaran :</p>
+                            <b class="big-text">AC082231923585</b>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <a style="text-decoration: none; color: #ff4a2b;" href="">Salin</a>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <p class="medium-text">Total Pembayaran :</p>
+                            <b class="big-text">Rp.747.500.-</b>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <a style="text-decoration: none; color: #ff4a2b;" href="">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                <a style="width: 20vh;" href="../Beranda.html" class="btn btn-orange me-3">Beranda</a>
+                <a style="width: 20vh;" href="../Belanja.html" class="btn btn-orange">Belanja lagi</a>
             </div>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">Indukan/Konsumsi</label>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">Bibit</label>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">Pakan</label>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">Gendong Telur</label>
-          </div>
-          <div class="col-3">
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search...">
             </div>
-          </div>
-        </div>
-        <div class="mt-2 row d-flex justify-content-center g-4">
-          <div class="col-5 d-flex justify-content-center">
-            <a style="text-decoration: none;" href="Pemesanan.html">
-              <div class="katalog p-4 row d-flex align-items-center">
-                <div
-                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('images/LobsterKonsumsi.png')"
-                  class="image col-4">
-                </div>
-                <div class="col-7 ms-4 flex-column">
-                  <div class="stock">
-                    Stock: 20Kg
-                  </div>
-                  <b>Lobster AirTawar Konsumsi</b>
-                  <b class="harga">Rp.180.000</b>
-                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-5 d-flex justify-content-center">
-            <a style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
-              <div class="katalog p-4 row d-flex align-items-center">
-                <div
-                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('images/LobsterKonsumsi.png')"
-                  class="image col-4">
-                </div>
-                <div class="col-7 ms-4 flex-column">
-                  <div class="stock">
-                    Stock: 20Kg
-                  </div>
-                  <b>Lobster AirTawar Konsumsi</b>
-                  <b class="harga">Rp.180.000</b>
-                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-5 d-flex justify-content-center">
-            <a style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
-              <div class="katalog p-4 row d-flex align-items-center">
-                <div
-                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('images/LobsterKonsumsi.png')"
-                  class="image col-4">
-                </div>
-                <div class="col-7 ms-4 flex-column">
-                  <div class="stock">
-                    Stock: 20Kg
-                  </div>
-                  <b>Lobster AirTawar Konsumsi</b>
-                  <b class="harga">Rp.180.000</b>
-                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-5 d-flex justify-content-center">
-            <a style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
-              <div class="katalog p-4 row d-flex align-items-center">
-                <div
-                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('images/LobsterKonsumsi.png')"
-                  class="image col-4">
-                </div>
-                <div class="col-7 ms-4 flex-column">
-                  <div class="stock">
-                    Stock: 20Kg
-                  </div>
-                  <b>Lobster AirTawar Konsumsi</b>
-                  <b class="harga">Rp.180.000</b>
-                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
     </section>
     <!-- Footer -->
@@ -253,16 +189,16 @@
                 <li style="margin-bottom: 10px"><a href="#">Tentang kami</a></li>
                 <li>Ikuti Kami</li>
                 <li class="sosmed">
-                  <a href=""><img src="images/instagram.png" alt=""></a>
-                  <a href=""><img src="images/facebook.png" alt=""></a>
-                  <a href=""><img src="images/twitter.png" alt=""></a>
+                  <a href=""><img src="../images/instagram.png" alt=""></a>
+                  <a href=""><img src="../images/facebook.png" alt=""></a>
+                  <a href=""><img src="../images/twitter.png" alt=""></a>
                 </li>
               </ul>
 
             </div>
             <div class="col-4 position-relative logo_bahasa">
               <div style="display: flex; justify-content: center;">
-                <img class="logo" src="images/lobsterindoputih.png" alt="">
+                <img class="logo" src="../images/lobsterindoputih.png" alt="">
               </div>
               <!-- <div class="overlap-3">
                                 <div class="overlap-group-2">
