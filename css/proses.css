@@ -55,3 +55,51 @@
     border-radius: 30px;
     margin-bottom: 3vh;
 }
+
+.box-pemesanan{
+    background-color: white;
+    padding: 5vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border-radius: 30px;
+    /* color: #ff4a2b; */
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.image-nota {
+    width: 20vw;
+    height: 27vh;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+.harga {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ff4a2b;
+}
+
+.box-detail-pengiriman{
+    background-color: white;
+    padding: 5vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border-radius: 30px;
+}
+
+.box-detail-pembayaran{
+    background-color: white;
+    padding: 5vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border-radius: 30px;    
+}
+
+.container-pengiriman{
+    width: 40%;
+}

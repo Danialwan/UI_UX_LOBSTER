@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/Boss/admin.css">
+    <link rel="stylesheet" href="../css/Boss/create-pegawai.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,60 +113,61 @@
                 </div> -->
             </div>
         </nav> <!-- End Navbar -->
-            <div class="container-admin flex-column">
-                <div>
-                    <div style="text-align: center;" class="admin-title">
-                        <b>Hi Boss!</b>
-                    </div>
-                    <p class="admin-desc mt-2">Selamat Datang Boss, Terimakasih atas kerja kerasnya. Pastikan kualitas dan kondisi perusahaan tetap memenuhi standar.</p>
-                </div>
-                <div class="row menu-admin px-3">
-                    <div class="col-3 flex-column">
-                        <center>
-                        <div style="background-image: url('../images/icon-manage-karyawan.svg');" class="box-icon"></div>
-                    
-                        <div style="text-align: center;" class="text-menu mb-3">
-                            <b>KAYAWAN</b>
-                            <p>Informasti Karyawan, Pastikan Semua karyawan terdaftar</p>
-                        </div>
-                        <a style="width: 10vw;" href="Karyawan.html" class="btn btn-orange"> Go </a>
-                    </center>                    
-                    </div>
-                    <div class="col-3 flex-column">
-                        <center>
-                        <div style="background-image: url('../images/icon-penjualan.svg');" class="box-icon"></div>
-                    
-                        <div style="text-align: center;" class="text-menu mb-3">
-                            <b>PENJUALAN</b>
-                            <p>Data penjualan, pastikan kualitas setiap penangkaran tetap terjaga</p>
-                        </div>
-                        <a style="width: 10vw;" href="Penjualan.html" class="btn btn-orange"> Go </a>
-                    </center>                    
-                    </div>
-                    <div class="col-3 flex-column">
-                        <center>
-                        <div style="background-image: url('../images/icon-pembayaran.svg');" class="box-icon"></div>
-                    
-                        <div style="text-align: center;" class="text-menu mb-3">
-                            <b>PEMBAYARAN</b>
-                            <p>Informasi metode  pembayaran tersedia</p>
-                        </div>
-                        <a style="width: 10vw;" href="Pembayaran.html" class="btn btn-orange"> Go </a>
-                    </center>                    
-                    </div>
-                    <div class="col-3 flex-column">
-                        <center>
-                        <div style="background-image: url('../images/icon-Penangkaran.svg');" class="box-icon"></div>
-                    
-                        <div style="text-align: center;" class="text-menu mb-3">
-                            <b>PENANGKARAN</b>
-                            <p>Informasi Penangkaran yang telah terdaftar</p>
-                        </div>
-                        <a style="width: 10vw;" href="Penangkaran.html" class="btn btn-orange"> Go </a>
-                    </center>                    
-                    </div>
-                </div>
+        <section>
+            <div style="margin-top: 15vh;" class="mb-5 container">
+                <center>
+                  <div class="title mb-5  ">
+                      <b>Tambahkan Pegawai</b>
+                      <p>Data Sensitif, pastikan data yang anda masukan sesuai !</p>
+                  </div>
+              </center>
             </div>
+            <div class="flex-colum">
+                <center>
+                <div  class="mb-2">
+                    <select style="width: 30%;" class="form-select rounded-3 border" aria-label="Default select example" name="manager_id">
+                      <option disabled selected>Pilih Penangkaran</option>
+                      <option> Jl.tambak medokan ayu</option>
+                    </select>
+                  </div>
+                  <div class="box-create-pegawai">
+                    <div class="mb-3 row">
+                        <label for="exampleFormControlTextarea1" class="col-md-2 col-form-label">Id User</label>
+                        <div class="col-md-10">
+                            <input type="number" class="form-control" id="exampleFormControlInput1" min="0">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label for="exampleInputPassword1" class="col-md-2 col-form-label">Jabatan</label>
+                        <div class="col-md-10">
+                          <select class="form-select rounded-3 border" aria-label="Default select example" name="manager_id">
+                            <option disabled selected>Jabatan</option>
+                              <option value="{{ $item->id }}"> Manager</option>
+                              <option value="{{ $item->id }}"> Admin Gudang</option>
+                              <option value="{{ $item->id }}"> Kurir</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <div class="col-md-4 d-flex">
+                            <label for="exampleFormControlTextarea1" class="col-form-label">Masa Jabatan :</label>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                            Saat ini  s/d
+                        </div>
+                        <div class="col-md-5">
+                            <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                      </div>
+                  </div>
+                  <div style="width: 40%;" class="row d-flex justify-content-center mb-5">
+                    <a style="width: 40%;" href="Karyawan.html" class="btn btn-orange me-3 d-flex align-items-center justify-content-center">Kembali</a>
+                    <button style="width: 40%;" type="submit" class="btn btn-orange d-flex align-items-center justify-content-center">Simpan Perubahan</button>
+                  </div>
+                </center>
+            </div>
+            
+        </section>
                 <!-- Footer -->
                 <footer class="footer">
                     <div class="">
@@ -197,16 +198,16 @@
                                         <li style="margin-bottom: 10px"><a href="#">Tentang kami</a></li>
                                         <li>Ikuti Kami</li>
                                         <li class="sosmed">
-                                            <a href=""><img src="images/instagram.png" alt=""></a>
-                                            <a href=""><img src="images/facebook.png" alt=""></a>
-                                            <a href=""><img src="images/twitter.png" alt=""></a>
+                                            <a href=""><img src="../images/instagram.png" alt=""></a>
+                                            <a href=""><img src="../images/facebook.png" alt=""></a>
+                                            <a href=""><img src="../images/twitter.png" alt=""></a>
                                         </li>
                                     </ul>
         
                                 </div>
                                 <div class="col-4 position-relative logo_bahasa">
                                     <div style="display: flex; justify-content: center;">
-                                        <img class="logo" src="images/lobsterindoputih.png" alt="">
+                                        <img class="logo" src="../images/lobsterindoputih.png" alt="">
                                     </div>
                                     <!-- <div class="overlap-3">
                                         <div class="overlap-group-2">
@@ -223,6 +224,8 @@
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
                     crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                    <script src="../js/charts.js"></script>
             </div>
         
         </body>

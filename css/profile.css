@@ -38,3 +38,13 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+.change-password{
+    color: #ff4a2b;
+    text-decoration: none;
+}
+
+.change-password:hover{
+    color: #000000;
+    text-decoration: none;
+}
