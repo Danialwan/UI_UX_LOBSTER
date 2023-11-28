@@ -13,12 +13,11 @@
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/footer.css">
-  <link rel="stylesheet" href="../css/Stock Gudang/pendataan-stock.css">
+  <link rel="stylesheet" href="../css/Stock Gudang/master-stock.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <div>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-white shadow-sm">
@@ -116,8 +115,8 @@
       <div style="margin-top: 15vh;" class="mb-5 container">
         <center>
           <div class="title mb-5  ">
-            <b>Halaman Master Pembayaran</b>
-            <p>Manage pembayaran yang tersedia di dalam website</p>
+            <b>Halaman Master Stock Barang</b>
+            <p>Data Sensitif, pastikan data yang anda masukan sesuai !</p>
         </center>
       </div>
       <div>
@@ -145,85 +144,118 @@
               </div>
             </div>
           </div>
-          <div class="mt-2 row d-flex justify-content-center g-3">
+
+          <div class="mt-2 row d-flex justify-content-center g-4">
+
             <div class="col-5 d-flex justify-content-center">
-              <a style="text-decoration: none;" href="Pemesanan.html">
+              <div style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
                 <div class="katalog p-4 row d-flex align-items-center">
                   <div
-                    style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('../images/LobsterKonsumsi.png')"
-                    class="image col-4">
+                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('../images/LobsterKonsumsi.png')"
+                  class="image col-4">
+                </div>
+                <div class="col-6 ms-4 flex-column">
+                  <div class="stock">
+                    Stock: 20Kg
                   </div>
-                  <div class="col-7 ms-4 flex-column">
-                    <div class="stock">
-                      Stock: 20Kg
-                    </div>
-                    <b>Lobster AirTawar Konsumsi</b>
-                    <b class="harga">Rp.180.000</b>
-                    <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                  <b>Lobster AirTawar Konsumsi</b>
+                  <b class="harga">Rp.180.000</b>
+                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                </div>
+                  <div class="col-1">
+                    <div class="mb-1"><a href="Set-Barang.html"><img src="../images/btn-Setting.svg" alt=""></a></div>
+                    <div class="mb-1"><a href="Tambah-Barang.html"><img src="../images/btn-plus.svg" alt=""></a></div>
+                    <div class="mb-1"><a href="Kurang-Barang.html"><img src="../images/btn-minus.svg" alt=""></a></div>
+                    <!-- <form class="mt-2" action="" method="post">
+                      <button style="border: none; background: none;" type="submit" ><img src="../images/btn-delete.svg" alt=""></button>
+                    </form> -->
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
 
             <div class="col-5 d-flex justify-content-center">
-              <a style="text-decoration: none;" href="Pemesanan.html">
+              <div style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
                 <div class="katalog p-4 row d-flex align-items-center">
                   <div
-                    style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('../images/LobsterKonsumsi.png')"
-                    class="image col-4">
+                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('../images/LobsterKonsumsi.png')"
+                  class="image col-4">
+                </div>
+                <div class="col-6 ms-4 flex-column">
+                  <div class="stock">
+                    Stock: 20Kg
                   </div>
-                  <div class="col-7 ms-4 flex-column">
-                    <div class="stock">
-                      Stock: 20Kg
-                    </div>
-                    <b>Lobster AirTawar Konsumsi</b>
-                    <b class="harga">Rp.180.000</b>
-                    <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                  <b>Lobster AirTawar Konsumsi</b>
+                  <b class="harga">Rp.180.000</b>
+                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                </div>
+                  <div class="col-1">
+                    <div class="mb-1"><a href="Set-Barang.html"><img src="../images/btn-Setting.svg" alt=""></a></div>
+                    <div class="mb-1"><a href="Tambah-Barang.html"><img src="../images/btn-plus.svg" alt=""></a></div>
+                    <div class="mb-1"><a href="Kurang-Barang.html"><img src="../images/btn-minus.svg" alt=""></a></div>
+                    <!-- <form class="mt-2" action="" method="post">
+                      <button style="border: none; background: none;" type="submit" ><img src="../images/btn-delete.svg" alt=""></button>
+                    </form> -->
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
 
             <div class="col-5 d-flex justify-content-center">
-              <a style="text-decoration: none;" href="Pemesanan.html">
+              <div style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
                 <div class="katalog p-4 row d-flex align-items-center">
                   <div
-                    style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('../images/LobsterKonsumsi.png')"
-                    class="image col-4">
+                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('../images/LobsterKonsumsi.png')"
+                  class="image col-4">
+                </div>
+                <div class="col-6 ms-4 flex-column">
+                  <div class="stock">
+                    Stock: 20Kg
                   </div>
-                  <div class="col-7 ms-4 flex-column">
-                    <div class="stock">
-                      Stock: 20Kg
-                    </div>
-                    <b>Lobster AirTawar Konsumsi</b>
-                    <b class="harga">Rp.180.000</b>
-                    <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                  <b>Lobster AirTawar Konsumsi</b>
+                  <b class="harga">Rp.180.000</b>
+                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                </div>
+                  <div class="col-1">
+                    <div class="mb-1"><a href="Set-Barang.html"><img src="../images/btn-Setting.svg" alt=""></a></div>
+                    <div class="mb-1"><a href="Tambah-Barang.html"><img src="../images/btn-plus.svg" alt=""></a></div>
+                    <div class="mb-1"><a href="Kurang-Barang.html"><img src="../images/btn-minus.svg" alt=""></a></div>
+                    <!-- <form class="mt-2" action="" method="post">
+                      <button style="border: none; background: none;" type="submit" ><img src="../images/btn-delete.svg" alt=""></button>
+                    </form> -->
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
 
             <div class="col-5 d-flex justify-content-center">
-              <a style="text-decoration: none;" href="Pemesanan.html">
+              <div style="text-decoration: none;" href="{{ '/pemesanan/create/'.$items->id }}">
                 <div class="katalog p-4 row d-flex align-items-center">
                   <div
-                    style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('../images/LobsterKonsumsi.png')"
-                    class="image col-4">
+                  style="background-size:150px 150px; background-repeat: no-repeat; background-image: url('../images/LobsterKonsumsi.png')"
+                  class="image col-4">
+                </div>
+                <div class="col-6 ms-4 flex-column">
+                  <div class="stock">
+                    Stock: 20Kg
                   </div>
-                  <div class="col-7 ms-4 flex-column">
-                    <div class="stock">
-                      Stock: 20Kg
-                    </div>
-                    <b>Lobster AirTawar Konsumsi</b>
-                    <b class="harga">Rp.180.000</b>
-                    <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                  <b>Lobster AirTawar Konsumsi</b>
+                  <b class="harga">Rp.180.000</b>
+                  <p>Lobster AirTawar dengan ukuran 4 sampai 6 inc</p>
+                </div>
+                  <div class="col-1">
+                    <div class="mb-1"><a href="Set-Barang.html"><img src="../images/btn-Setting.svg" alt=""></a></div>
+                    <div class="mb-1"><a href="Tambah-Barang.html"><img src="../images/btn-plus.svg" alt=""></a></div>
+                    <div class="mb-1"><a href="Kurang-Barang.html"><img src="../images/btn-minus.svg" alt=""></a></div>
+                    <!-- <form class="mt-2" action="" method="post">
+                      <button style="border: none; background: none;" type="submit" ><img src="../images/btn-delete.svg" alt=""></button>
+                    </form> -->
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
     </section>
-  </div>
   <!-- Footer -->
   <footer class="footer">
     <div class="">
