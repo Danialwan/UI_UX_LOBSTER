@@ -1,4 +1,4 @@
-.menu-admin{
+.menu-admin {
     width: 100%;
     margin-top: 5vh;
     display: flex;
@@ -6,17 +6,17 @@
     margin-bottom: 5vh;
 }
 
-.box-icon{
+.box-icon {
     width: 15vw;
     margin: 4vh;
     height: 25vh;
     border-radius: 30px;
-    background-color: orange;
+    /* background-color: orange; */
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.text-menu p{
+.text-menu p {
     font-size: 1rem;
 }
